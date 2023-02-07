@@ -1,6 +1,7 @@
 import { Formik } from 'formik'
 import * as yup from 'yup'
-import './index.css'
+
+import { Page } from './components/Page'
 
 function App() {
    //пишем валидацию для input
@@ -194,6 +195,7 @@ function App() {
                </div>
             )}
          </Formik>
+         <Page />
       </>
    )
 }

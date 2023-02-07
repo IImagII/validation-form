@@ -1,0 +1,10 @@
+.item {
+   color: #222222;
+   background: #fff;
+
+   padding: 10px;
+   &.active {
+      color: #fff;
+      background: #222222;
+   }
+}

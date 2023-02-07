@@ -1,0 +1,24 @@
+.home {
+   color: red;
+}
+.text {
+   text-decoration: underline;
+}
+.item {
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0 2 px 4 px #22222240;
+   padding-bottom: 10px;
+   &.active {
+      box-shadow: 0 2px 4px #22222280;
+   }
+}
+.button {
+   margin-top: 10px;
+   border: solid 1px #222222;
+   color: #ffffff;
+   background: #222222;
+   &.disabled {
+      background: #22222250;
+   }
+}
